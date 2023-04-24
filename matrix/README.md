@@ -10,4 +10,4 @@ A Matrix library that implements the following API:
 | static double[] mult(double[][] a, double[] x)     | matrix-vector product |
 | static double[] mult(double[] y, double[][] a)     | vector-matrix product |
 
-And test client that reads values from standard input and tests all the methods.
+And test client that tests all the methods.
