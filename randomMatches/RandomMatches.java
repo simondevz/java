@@ -68,8 +68,8 @@ public class RandomMatches {
             for (int k = 0; k < arr3.length; k++) {
                 sum += arr3[k];
             }
-            double average = (double) (sum/2);
-            System.out.printf("%10s|%10s\n", N, average);
+            double average = (double) sum/((double) arr3.length);
+            System.out.printf("%10s|%.4f\n", N, average);
         }
     }
 }
